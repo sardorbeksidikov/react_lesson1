@@ -1,5 +1,5 @@
 import Clients from './components/clients/Clients';
-import Footer from './components/footer/Footer';
+// import Footer from './components/footer/Footer';
 import Content from './components/content/Content';
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
@@ -16,7 +16,6 @@ function App(){
         <Content />
         <Table />
         <Clients />
-        <Footer />
 
       </div>
     );

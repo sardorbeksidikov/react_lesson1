@@ -23,7 +23,11 @@ function clients() {
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
-              <img src="../src/assets/images/person2.svg" alt="" className="client-cart__person" />
+              <img
+                src="../src/assets/images/person2.svg"
+                alt=""
+                className="client-cart__person"
+              />
             </div>
             <div className="client-cart">
               <img
@@ -35,7 +39,11 @@ function clients() {
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
-              <img src="../src/assets/images/person1.svg" alt="" className="client-cart__person" />
+              <img
+                src="../src/assets/images/person1.svg"
+                alt=""
+                className="client-cart__person"
+              />
             </div>
             <div className="client-cart">
               <img
@@ -47,8 +55,27 @@ function clients() {
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
-              <img src="../src/assets/images/person3.svg" alt="" className="client-cart__person" />
+              <img
+                src="../src/assets/images/person3.svg"
+                alt=""
+                className="client-cart__person"
+              />
             </div>
+          </div>
+        </div>
+        <div className="footer">
+          <div className="footer-right">
+            <h2 className="footer-right__name">
+              Join 100 Compannies who boost their business with Product
+            </h2>
+            <button className="footer-right__btn">Get This</button>
+          </div>
+          <div className="footer-left">
+            <img
+              src="../src/assets/images/footer (2).png"
+              alt=""
+              className="footer-left__img"
+            />
           </div>
         </div>
       </div>
