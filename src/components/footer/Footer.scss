@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  padding: 20px 50px;
+  background-color: #02897a;
+  border-radius: 10px;
+  flex-wrap: wrap;
+
+  &-right {
+    &__name {
+        max-width: 520px;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 48px;
+      color: #fff;
+    }
+    &__btn{
+        
+        padding: 10px 20px;
+        margin-top: 15px;
+        font-size: 20px;
+        background-color: #fff;
+        color: #02897a;
+        border-radius: 8px;
+        border: none;
+        &:hover{
+            transform: scale(1.04);
+            transition: 0.5s;
+            background-color: #59ffec;
+            color: #fff;
+        }
+    }
+  }
+  @media(max-width: 768px){
+    justify-content: center;
+  }
+}

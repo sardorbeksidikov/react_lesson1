@@ -1,0 +1,52 @@
+.client {
+  margin-top: 100px;
+  &-page {
+    text-align: center;
+    &__name {
+      font-size: 34px;
+      font-weight: 700;
+      line-height: 57px;
+      color: #22343d;
+    }
+    &__title {
+      max-width: 537px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0.20000000298023224px;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+      color: #22343d;
+    }
+  }
+  &-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  &-cart {
+    padding: 15px;
+    border: solid 1px #d5d4d4;
+    border-radius: 8px;
+    &:hover{
+        transform: scale(1.04);
+        transition: 0.5s;
+        background-color: aqua;
+        color: #fff;
+    }
+    &__title {
+      max-width: 275px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0.20000000298023224px;
+      text-align: left;
+      color: #737373;
+    }
+  }
+}
